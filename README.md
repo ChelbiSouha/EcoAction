@@ -1,6 +1,6 @@
 # EcoAction - Environmental Volunteering Platform
 
-A production-ready academic MVP built with React Native, Expo, TypeScript, and TanStack Query.
+ built with React Native, Expo, TypeScript, and TanStack Query.
 
 ## 🚀 Features
 - **Missions**: Discover and filter environmental missions.
