@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "EcoAction",
+    "slug": "ecoaction",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "ecoaction",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {},
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

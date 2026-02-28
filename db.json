@@ -1,0 +1,208 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Alex Green",
+      "email": "alex@eco.com",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+      "bio": "Passionate about reforestation and ocean cleanup.",
+      "city": "Los Angeles",
+      "joinedAt": "2024-01-10T09:00:00Z",
+      "totalMissionsCompleted": 12,
+      "activeMissionsCount": 2,
+      "role": "volunteer"
+    },
+    {
+      "id": "u2",
+      "name": "Sofia Martinez",
+      "email": "sofia@greenearth.org",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "bio": "Environmental educator and urban gardening advocate.",
+      "city": "Los Angeles",
+      "joinedAt": "2024-02-05T14:30:00Z",
+      "totalMissionsCompleted": 8,
+      "activeMissionsCount": 1,
+      "role": "organizer"
+    },
+    {
+      "id": "u3",
+      "name": "Daniel Kim",
+      "email": "daniel@ecoaction.org",
+      "avatar": "https://randomuser.me/api/portraits/men/65.jpg",
+      "bio": "Fighting climate change one tree at a time.",
+      "city": "San Diego",
+      "joinedAt": "2024-03-12T11:15:00Z",
+      "totalMissionsCompleted": 5,
+      "activeMissionsCount": 1,
+      "role": "volunteer"
+    },
+    {
+      "name": "Souha",
+      "email": "souha@gmail.com",
+      "avatar": "https://ui-avatars.com/api/?name=Souha&background=random",
+      "bio": "New EcoAction member!",
+      "totalMissionsCompleted": 0,
+      "activeMissionsCount": 0,
+      "id": "BZtWhc8"
+    }
+  ],
+  "missions": [
+    {
+      "id": "m1",
+      "title": "Beach Cleanup: Santa Monica",
+      "description": "Join us to clean up the beach and protect marine life. Gloves and bags provided.",
+      "category": "Cleanup",
+      "tags": [
+        "beach",
+        "plastic",
+        "marine-life"
+      ],
+      "date": "2026-04-15T09:00:00Z",
+      "location": {
+        "name": "Santa Monica Pier",
+        "city": "Santa Monica",
+        "state": "CA",
+        "coordinates": {
+          "lat": 34.0094,
+          "lng": -118.4973
+        }
+      },
+      "organizerId": "u2",
+      "maxSpots": 20,
+      "currentParticipants": 8,
+      "difficulty": "Easy",
+      "status": "open",
+      "createdAt": "2026-02-01T10:00:00Z",
+      "image": "https://images.pexels.com/photos/5029859/pexels-photo-5029859.jpeg"
+    },
+    {
+      "id": "m2",
+      "title": "Urban Gardening Workshop",
+      "description": "Learn how to grow your own food in the city. Help us plant new vegetables.",
+      "category": "Education",
+      "tags": [
+        "gardening",
+        "urban-farming",
+        "sustainability"
+      ],
+      "date": "2026-04-20T14:00:00Z",
+      "location": {
+        "name": "Community Garden Downtown",
+        "city": "Los Angeles",
+        "state": "CA",
+        "coordinates": {
+          "lat": 34.0522,
+          "lng": -118.2437
+        }
+      },
+      "organizerId": "u2",
+      "maxSpots": 15,
+      "currentParticipants": 12,
+      "difficulty": "Medium",
+      "status": "almost_full",
+      "createdAt": "2026-02-05T12:00:00Z",
+      "image": "https://images.pexels.com/photos/4503273/pexels-photo-4503273.jpeg"
+    },
+    {
+      "id": "m3",
+      "title": "Reforestation Project",
+      "description": "Planting 500 trees in the local park to combat climate change.",
+      "category": "Planting",
+      "tags": [
+        "trees",
+        "climate-action",
+        "nature"
+      ],
+      "date": "2026-05-01T08:00:00Z",
+      "location": {
+        "name": "Green Valley National Park",
+        "city": "San Diego",
+        "state": "CA",
+        "coordinates": {
+          "lat": 32.7157,
+          "lng": -117.1611
+        }
+      },
+      "organizerId": "u2",
+      "maxSpots": 50,
+      "currentParticipants": 25,
+      "difficulty": "Hard",
+      "status": "open",
+      "createdAt": "2026-02-10T09:00:00Z",
+      "image": "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg"
+    },
+    {
+      "id": "m4",
+      "title": "Neighborhood Recycling Drive",
+      "description": "Collect and sort recyclables from the neighborhood and raise awareness about waste reduction.",
+      "category": "Cleanup",
+      "tags": [
+        "recycling",
+        "community",
+        "waste-management"
+      ],
+      "date": "2026-04-22T10:00:00Z",
+      "location": {
+        "name": "City Hall Plaza",
+        "city": "Los Angeles",
+        "state": "CA",
+        "coordinates": {
+          "lat": 34.0537,
+          "lng": -118.2428
+        }
+      },
+      "organizerId": "u2",
+      "maxSpots": 30,
+      "currentParticipants": 30,
+      "difficulty": "Easy",
+      "status": "closed",
+      "createdAt": "2026-02-12T15:00:00Z",
+      "image": "https://images.pexels.com/photos/3850512/pexels-photo-3850512.jpeg"
+    }
+  ],
+  "participations": [
+    {
+      "id": "p1",
+      "userId": "u1",
+      "missionId": "m2",
+      "status": "registered",
+      "registeredAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": "p2",
+      "userId": "u3",
+      "missionId": "m1",
+      "status": "confirmed",
+      "registeredAt": "2026-03-05T09:30:00Z"
+    },
+    {
+      "id": "p3",
+      "userId": "u1",
+      "missionId": "m4",
+      "status": "completed",
+      "registeredAt": "2026-02-15T08:00:00Z",
+      "completedAt": "2026-04-22T14:00:00Z"
+    },
+    {
+      "userId": "u1",
+      "missionId": "m3",
+      "status": "registered",
+      "registeredAt": "2026-02-27T13:36:27.053Z",
+      "id": "zyhLIeY"
+    },
+    {
+      "userId": "BZtWhc8",
+      "missionId": "m1",
+      "status": "registered",
+      "registeredAt": "2026-02-27T14:03:49.776Z",
+      "id": "i686s85"
+    },
+    {
+      "userId": "BZtWhc8",
+      "missionId": "m2",
+      "status": "registered",
+      "registeredAt": "2026-02-27T14:03:55.978Z",
+      "id": "w1gKYQO"
+    }
+  ]
+}
